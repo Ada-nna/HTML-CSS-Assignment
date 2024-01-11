@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8e5e5;
+}
+
+.container{
+    display: flex;
+}
+.sideOne{
+    height: 750px;
+    width: 400px;
+    background: url(./images/imageOne.jpg) center center/cover no-repeat;
+    border: 0;
+    margin-left: 300px;
+    margin-top: 50px;
+    box-shadow: 5px 20px 50px #fdb9b9;
+}
+
+#back{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(143, 39, 143);
+    letter-spacing: -1px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.sideTwo{
+    height: 750px;
+    width: 800px;
+    border: 0;
+    background-color: #ffffff;
+    box-shadow: 5px 20px 50px #fdb9b9;
+    margin-top: 50px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+
+ul li{
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+ul li:hover{
+    color: black;
+}
+
+h1{
+    font-size: 75px;
+    width: 400px;
+    font-weight: 400;
+    margin-top: 150px;
+    margin-left: 120px;
+    line-height: 75px;
+}
+
+hr{
+    border: 3px solid black;
+    width: 120px;
+    margin-top: -38px;
+    margin-left: 390px;
+}
+
+#byWho{
+    margin-top: 70px;
+    font-size: 24px;
+    margin-left: 120px;
+}
+
+.sideThree{
+    display: flex;
+    gap: 50px;
+}
+
+.imageTwo img{
+    height: 150px;
+    width: 220px;
+    margin-left: 120px;
+    margin-top: 40px;
+    position: relative;
+}
+
+#play{
+    position: absolute;
+    bottom: 235px;
+    right: 780px;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffffd8;
+    cursor: pointer;
+}
+
+.imageTwo p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -1px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+#direction{
+    width: 300px;
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: 60px;
+}
